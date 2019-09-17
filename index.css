@@ -13,7 +13,7 @@ body {margin: 0;}
    "main"
    "right"
    "footer";
-   grid-template-rows: auto auto auto auto 35px;
+   grid-template-rows:   185px auto auto 35px;
 }
 .cell-1 {
    background: url(lights.jpg);
