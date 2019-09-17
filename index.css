@@ -39,10 +39,6 @@ body {margin: 0;}
 .cell-5 {
    background: rgb(70, 61, 53);
    grid-area: footer;
-   /* height: 35px; */
-   /* position: fixed;
-   left: 0;
-   bottom: 0; */
    width: 100%;
 }
 .cell {
