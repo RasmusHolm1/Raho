@@ -29,17 +29,20 @@
         </header>
 
         <aside class="cell cell-2">
-            Navbar?
+
 
             <!-- Det här är vänstra delen i mainen -->
         </aside>
 
 
         <main class="cell cell-3">
-            <div class="changingcircle">
+            <div id="changingcircle--right" class="changingcircle changingcircle--expanded">
+            </div>
+            <div id="changingcircle--wrong" class="changingcircle">
             </div>
             <div class="test">
-                <button class="button" OnClick=" location.href='wronganimation.html' ">
+                <!-- <button class="button" onclick="location.href='wronganimation.html' "> -->
+                <button class="button" onclick="toggleBoxes()">
                     See the wrong way
                 </button>
             </div>

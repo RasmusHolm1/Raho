@@ -15,4 +15,22 @@ function hideFunction() {
     } else {
         hide.style.display = "none";
     }
-} 
+}
+
+
+function toggleBoxes() {
+    const circleRightEl = documnent.getElementById('changingcircle--right');
+    const circleWrongEl = documnent.getElementById('changingcircle--wrong');
+
+    const circleRightIsExpanded = circleRightEl.className.search('changing-circle--expanded');
+
+    // truthy and falsy
+
+    if (circleRightIsExpanded) {
+        //  ...expandCircleWrong
+        //  ...hideCircleRight
+    } else {
+
+    }
+
+}
