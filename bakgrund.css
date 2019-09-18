@@ -1,0 +1,23 @@
+#box-container{
+  display: none;
+  background: #223;
+  border-top: solid;
+  border-color: #333;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+.box {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  background-color: red;
+  transition: all 1s;
+}
+.box:hover, .box:focus {
+  width: 300px;
+  background-color: orange;
+}
