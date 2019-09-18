@@ -19,30 +19,32 @@
             <nav class="nav" id="main-nav">
                 <ul class="navlist">
                     <li class="nav-item"><a class="nav-item-link" href="index.html">Start</a></li>
-                    <li class="nav-item"><a class="nav-item-link" href="animationer.html">Exempel</a></li>
-                    <li class="nav-item"><a class="nav-item-link" href="bakgrund.html">Animationer</a>
+                    <li class="nav-item"><a class="nav-item-link" href="exempel.html">Exempel</a></li>
+                    <li class="nav-item"><a class="nav-item-link" href="animationer.html">Animationer</a>
                     </li>
-
                 </ul>
             </nav>
             <div class="hamburger">
                 <i class="material-icons" onclick="myFunction ()">menu</i>
             </div>
         </header>
-
         <aside class="cell cell-2">
         </aside>
 
+
         <main class="cell cell-3">
-            <div id="changingcircle--right" class="changingcircle changingcircle--expanded">
+
+            <button id="toggleBoxesBtn2" class="button" onclick="hideFunction(), toggleBtn2()">More animations</button>
+            <div id="box-container">
+                <div class="box" tabindex="0"></div>
+                <div id="box-container1">
+                    <div class="secondbox" tabindex="0"></div>
+                </div>
+                <div id="box-container2">
+                    <div class="fourthbox" tabindex="0"></div>
+                </div>
             </div>
-            <div id="changingcircle--wrong" class="changingcircle">
-            </div>
-            <div class="test">
-                <button id="toggleBoxesBtn1" class="button" onclick="toggleBoxes(), toggleBtn1()">
-                    See the wrong way
-                </button>
-            </div>
+
         </main>
 
         <aside class="cell cell-4">
