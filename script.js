@@ -17,7 +17,7 @@ function hideFunction() {
     }
 }
 
-const
+
 
 function toggleBoxes() {
     const circleRightEl = document.getElementById('changingcircle--right');
