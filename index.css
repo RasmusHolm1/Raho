@@ -40,7 +40,6 @@ body {margin: 0;}
    overflow: hidden;
    display: grid;
    grid-template-columns: 1fr;
-   height: calc(80vh-70px);
    align-content: space-between;
 }
 .nav-item {
@@ -98,7 +97,7 @@ button {
    outline: dotted 3px #ec7060;
 }
 .button{
-	--border-size: 2px;
+   
 	position: relative;
 	padding: 1.5em 3em;
 	border: solid;
