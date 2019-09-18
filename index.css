@@ -62,6 +62,7 @@ body {margin: 0;}
 .hamburger{
    grid-column: 4;
    justify-self: end;
+   cursor: pointer;
 }
 .material-icons{
    font-size: 1.4em;
