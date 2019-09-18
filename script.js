@@ -16,8 +16,28 @@ function hideFunction() {
         hide.style.display = "block";
     }
 }
+function toggleBtn1() {
+    const toggleOnEl = document.getElementById('toggleBoxesBtn1');
 
+    if (toggleOnEl.innerHTML === "See the right way") {
+        toggleOnEl.innerHTML = "See the wrong way";
+    }
+    else {
+        toggleOnEl.innerHTML = "See the right way";
+    }
+}
 
+function toggleBtn2() {
+    const toggleOnEl = document.getElementById('toggleBoxesBtn2');
+
+    if (toggleOnEl.innerHTML === "Less animations") {
+        toggleOnEl.innerHTML = "More animations";
+    }
+    else {
+        toggleOnEl.innerHTML = "Less animations";
+    }
+
+}
 
 function toggleBoxes() {
     const circleRightEl = document.getElementById('changingcircle--right');

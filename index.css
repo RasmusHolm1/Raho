@@ -75,7 +75,9 @@ body {margin: 0;}
    grid-area: main;
 }
 h1{
-   color: lavender;
+   font-family: 'Titillium Web', sans-serif;
+   color: blanchedalmond;
+   text-transform: uppercase;
 }
 .cell-4 {
    display: none;
