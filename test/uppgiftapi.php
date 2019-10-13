@@ -6,63 +6,63 @@ $ros=[
     "Produkt"=>"Ros", 
     "Färg"=>"Röd", 
     "Pris"=>"22kr", 
-    "Bild"=>"<img src='http://localhost/rasmusholm/backend/projekt/test/bilder/ros.jpg", 
+    "Bild"=>"<img src='http://localhost/rasmusholm/backend/projekt/test/bilder/ros.jpg'>", 
     "Beskrivning"=>"Beskrivning"];
 
 $maskros=[
     "Produkt"=>"maskros", 
     "Färg"=>"gul", 
     "Pris"=>"22kr", 
-    "Bild"=>"<img src='http://localhost/rasmusholm/backend/projekt/test/bilder/maskros.jpg", 
+    "Bild"=>"<img src='http://localhost/rasmusholm/backend/projekt/test/bilder/maskros.jpg'>", 
     "Beskrivning"=>"Beskrivning"];
 
 $orkidee=[
     "Produkt"=>"orkidee", 
     "Färg"=>"vit", 
     "Pris"=>"22kr", 
-    "Bild"=>"<img src='http://localhost/rasmusholm/backend/projekt/test/bilder/orchids.jpg", 
+    "Bild"=>"<img src='http://localhost/rasmusholm/backend/projekt/test/bilder/orchids.jpg'>", 
     "Beskrivning"=>"Beskrivning"];
 
 $lilja=[
     "Produkt"=>"Lilja", 
     "Färg"=>"Rosa", 
     "Pris"=>"22kr", 
-    "Bild"=>"<img src='http://localhost/rasmusholm/backend/projekt/test/bilder/lily.jpg", 
+    "Bild"=>"<img src='http://localhost/rasmusholm/backend/projekt/test/bilder/lily.jpg'>", 
     "Beskrivning"=>"Beskrivning"];
 
 $blaklocka=[
     "Produkt"=>"Blåklocka",
     "Färg"=>"Blå", 
     "Pris"=>"22kr", 
-    "Bild"=>"<img src='http://localhost/rasmusholm/backend/projekt/test/bilder/blue-bell.jpg", 
+    "Bild"=>"<img src='http://localhost/rasmusholm/backend/projekt/test/bilder/blue-bell.jpg'>", 
     "Beskrivning"=>"Beskrivning"];
 
 $solros=[
     "Produkt"=>"Solros",
     "Färg"=>"Gul", 
     "Pris"=>"12kr", 
-    "Bild"=>"<img src='http://localhost/rasmusholm/backend/projekt/test/bilder/solros.jpg", 
+    "Bild"=>"<img src='http://localhost/rasmusholm/backend/projekt/test/bilder/solros.jpg'>", 
     "Beskrivning"=>"Beskrivning"];
 
 $vitsippa=[
     "Produkt"=>"Vitsippa",
     "Färg"=>"Vit", 
     "Pris"=>"23kr", 
-    "Bild"=>"<img src='http://localhost/rasmusholm/backend/projekt/test/bilder/vitsippa.jpg", 
+    "Bild"=>"<img src='http://localhost/rasmusholm/backend/projekt/test/bilder/vitsippa.jpg'>", 
     "Beskrivning"=>"Beskrivning"];
 
 $appletrad=[
     "Produkt"=>"Äppleträd",
     "Färg"=>"Gul", 
     "Pris"=>"12kr", 
-    "Bild"=>"<img src='http://localhost/rasmusholm/backend/projekt/test/bilder/apple.jpg", 
+    "Bild"=>"<img src='http://localhost/rasmusholm/backend/projekt/test/bilder/apple.jpg'>", 
     "Beskrivning"=>"Beskrivning"];
 
 $vinbarsbuske=[
     "Produkt"=>"Vinbärsbuske",
     "Färg"=>"Grön", 
     "Pris"=>"33kr", 
-    "Bild"=>"<img src='http://localhost/rasmusholm/backend/projekt/test/bilder/vinbar.jpg", 
+    "Bild"=>"<img src='http://localhost/rasmusholm/backend/projekt/test/bilder/vinbar.jpg'>", 
     "Beskrivning"=>"Beskrivning"];
 
 $fikontrad=[
