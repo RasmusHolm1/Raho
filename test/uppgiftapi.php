@@ -104,11 +104,12 @@ if(isset($_GET["limit"])){
     $limit = $_GET["limit"]; 
 }
 
-$blommor =[];
+$blommor =[];   
 
 for($i=0; $i<$limit ; $i++):
     $blommor = array(
-        "blommor" => [$ros, 
+        "blommor" => 
+        [$ros, 
         $maskros, 
         $orkidee, 
         $lilja, 
