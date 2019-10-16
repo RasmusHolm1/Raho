@@ -7,42 +7,34 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="webb.css">
     <title>Uppgift 3</title>
-    <style>
-    </style>
 </head>
 <body>
-<nav class="navbar navbar-dark bg-dark">
+<nav class="navbar navbar-dark bg-dark justify-content-end">
   <!-- Navbar content -->
   <ul class="nav">
   <li class="nav-item">
-    <a class="nav-link active" href="#">Startsida</a>
+    <a class="nav-link" href="webb.php">Startsida</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#">Produkter</a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
 </ul>
 </nav>
 
-<div class="kontainer" class="alert1 alert-success2" role="alert">
-<h1 class="display-3">Välkommen!</h1>
+<div class="kontainer alert1 alert-success2" role="alert">
+<h1 class="display-3">Välkommen till vår webbshop!</h1>
 
-<h2>Produkter</h2>
+<h2>Produkter:</h2>
+<form action="#" method="GET"> 
+        Antal produkter: <br>
+        <input type="text" name="limit"> 
+        <input type="submit" value="Visa" class="submitbtn">
+    </form>
 
-<div class="visa">
-<?php 
-    include 'getapi.php';
-?>
+
+    <?php include 'getapi.php'; ?>
+
+<footer> &copy; Rasmus och Stina - Backend 2019</footer>
 </div>
-</div>
-
-
-
-
-
-
-
 </body>
 </html>

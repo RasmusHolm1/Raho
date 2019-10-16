@@ -1,29 +1,38 @@
 <?php
-
-
 // 1. ange en endpoint (resurs, resource)
 //skapa en variabel för din endpoint
-$url = "http://localhost/RasmusHolm/backend/projekt/test/uppgiftapi.php";
+$limit = 10; 
+
+if(isset($_GET['limit'])) {
+
+    $getlimit = htmlspecialchars($_GET['limit']);
+    if (!is_numeric($getlimit)) {
+        echo "error: $getlimit ej giltigt - använd 1-10"; //jsonformat.
+        return;
+    }
+    if($getlimit <1 || $getlimit >10){
+        echo ("Error: min 1 - max 10");
+        return;
+    }
+
+    echo "Visar: ". $getlimit . " produkter.";
+        $link ="http://localhost/rasmusholm/Backend/Projekt/StinasVer/uppgiftapi.php?limit=";
+        $url = $link.=$getlimit;
+    echo "<br>";
+    } 
+    else
+    $url = "http://localhost/rasmusholm/Backend/Projekt/StinasVer/uppgiftapi.php";
 
 // 2. hämta data
 //metod i PHP file_get_contents - lagra i en variabel.
 $json = file_get_contents($url);
-
-// 3. Testa data genom att skriva ut allt på skärmen
-// echo "<pre>";
-// echo $json;
-// echo "</pre>";
-
-
 // 4. Konvertera JSON till en PHP-Array
 $array= json_decode($json, true);
-// echo "<pre>";
-// print_r($array);
-// echo"</pre>";
 
+echo "<div class='visa'>";
 foreach($array as $key => $value){
     echo "<div class='kort'>";
-        echo $value['bild']; //<img src="..." class="card-img-top" alt="...">
+        echo "<img src=".$value['bild'].">";
         echo "<div class='kort-body'>";
         echo "<h5 class='kort-title'>";
         echo $value['produkt'];
@@ -36,21 +45,11 @@ foreach($array as $key => $value){
         echo "<button type='button' class='btn btn-info'>Köp</button>";
         echo "<p class='kort-text'>";
         echo '<br>';
-        echo$value ['lager'];
+        echo "Kvar i lager: " . $value ['lager'];
         echo "</p>";
         echo "</div>";
         echo "</div>";
         echo "<br>";
-    
 }
-
-$limit = 10; //defaultvärde
-if(isset($_GET["limit"])){ // kontrollerar om det finns data i min getrequest 
-    $limit = $_GET["limit"]; //50
-}
-
-
-
-
-
+echo "</div>";
 ?>

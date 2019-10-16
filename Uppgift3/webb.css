@@ -1,0 +1,83 @@
+.nav-link{
+    color: white;
+}
+a:hover{
+  color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    border-radius: .25rem;
+}
+.antalprod{
+  text-align: center;
+}
+input{
+  width: 55px;
+  border: 1px solid grey;
+  border-radius: .25rem;
+}
+.submitbtn{
+  color: #fff;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  border-radius: .25rem;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  height: 30px;
+}
+.visa{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+img{
+  width: auto;
+  height: 200px;
+}
+.kort-deck{
+  padding: 15px;
+  margin: 15px; 
+}
+.kort-title{
+  font-family: 'Titillium Web', sans-serif;
+  margin:5px;
+  padding:5px;
+}
+.kort-text{
+font-family: Arial;
+font-weight: bold;
+letter-spacing: .25em;
+margin: 5px;
+padding: 5px;
+font-size: 80%;
+}
+.kort{
+margin:5px;
+border-radius: 15px;
+background-color:  #D2FED5;
+}
+.container{
+  text-align: center;
+}
+img{
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+height: 240px;
+width: 270px;
+}
+button{
+margin: 5px;
+padding: 5px;
+}
+form{
+  padding-right: 1em;
+  padding-bottom: 1em;
+  text-align: right;
+}
+footer{
+  text-align: center;
+  background-color: #343a40;
+  color: #fff;
+  padding: 1rem;
+}
